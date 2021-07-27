@@ -58,7 +58,7 @@ EXE= \
 # tmk-query-with-faiss \
 
 # ================================================================
-all: $(EXE)
+all: $(EXE) regtest
 
 regtest: tmk-hash-video tmk-compare-two-tmks .always
 	mkdir -p ./regtest
