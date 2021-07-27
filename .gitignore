@@ -1,0 +1,8 @@
+*~
+*.o
+build/
+dist/
+tmkpy.py
+tmkpy_wrap.cpp
+tmkpy.egg-info/
+tmk/cpp/libtmk.a
