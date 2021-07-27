@@ -1,5 +1,12 @@
 # SWIG Python Bindings for TMK Video Hashing
 
+TMK video hashing is designed to identify whether two video files are duplicates (possibly with different formats, etc.).
+It measures the similarity of videos in two ways. First a simple cosine distance on vectors of 256 dimensions are used to find possibly close videos.
+The documentation and whitepaper suggest a good threshold is 0.7.  Then a temporal match kernel (tmk) is used to compute a more accurate similarity measure.
+Please see the original documentation at: https://github.com/facebook/ThreatExchange/
+
+This repository provide Python bindings to make it easier to use TMK within Python.
+
 # Installation 
 
 ## tl;dr
