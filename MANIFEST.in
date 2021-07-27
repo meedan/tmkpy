@@ -1,2 +1,3 @@
 recursive-include tmk *
 recursive-include pdq *
+include tmkpy.h
