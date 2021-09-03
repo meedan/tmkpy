@@ -23,6 +23,7 @@ tmkpy_module = Extension('_tmkpy',
 	include_dirs=["."],
 	libraries=["tmk"],
 	library_dirs=["tmk/cpp/"],
+ 	extra_compile_args=["-std=c++14"]
 )
 
 
