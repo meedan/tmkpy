@@ -12,6 +12,7 @@
 
 #include <string>
 #include <memory>
+#inclide <stdexcept>
 
 namespace facebook {
 namespace tmk {
